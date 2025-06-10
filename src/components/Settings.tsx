@@ -42,7 +42,7 @@ export function Settings ({
   };
 
   return (
-    <div className="p-6 max-w-2xl mx-auto">
+    <div className="p-6 max-w-2xl mx-auto border-2 border-t-0">
       <h2 className="text-2xl font-bold mb-6">Settings</h2>
 
       <div className="space-y-6">
@@ -51,7 +51,7 @@ export function Settings ({
             htmlFor="apiKey"
             className="block text-sm font-medium text-gray-700 mb-2"
           >
-            OpenAI API Key
+            OpenRouter API Key
           </label>
           <input
             type="password"

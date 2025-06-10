@@ -54,7 +54,7 @@ export function Chat({ context, apiKey }: ChatProps) {
   }
 
   return (
-    <div className="flex flex-col h-[800px] bg-gray-100">
+    <div className="flex flex-col bg-gray-100 h-[calc(100vh-5.5rem)]">
       <div className="flex-1 overflow-y-auto p-4 space-y-4">
         {messages.map((message, index) => (
           <div
